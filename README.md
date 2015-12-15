@@ -18,7 +18,7 @@ The following **required** functionality is complete:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/iVel7tM' />
+<img src='http://i.imgur.com/iVel7tM.gif?1' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
