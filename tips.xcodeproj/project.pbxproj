@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D15C94B31C36277200BB89DB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C94B21C36277200BB89DB /* SettingViewController.swift */; };
 		D1D0B0E31C1F3A3E003C00C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D0B0E21C1F3A3E003C00C7 /* AppDelegate.swift */; };
 		D1D0B0E51C1F3A3E003C00C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D0B0E41C1F3A3E003C00C7 /* ViewController.swift */; };
 		D1D0B0E81C1F3A3E003C00C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D0B0E61C1F3A3E003C00C7 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D15C94B21C36277200BB89DB /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		D1D0B0DF1C1F3A3E003C00C7 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D0B0E21C1F3A3E003C00C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1D0B0E41C1F3A3E003C00C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				D1D0B0E21C1F3A3E003C00C7 /* AppDelegate.swift */,
 				D1D0B0E41C1F3A3E003C00C7 /* ViewController.swift */,
 				D1D0B0E61C1F3A3E003C00C7 /* Main.storyboard */,
+				D15C94B21C36277200BB89DB /* SettingViewController.swift */,
 				D1D0B0EC1C1F3A3E003C00C7 /* Assets.xcassets */,
 				D1D0B0EE1C1F3A3E003C00C7 /* LaunchScreen.storyboard */,
 				D1D0B0F11C1F3A3E003C00C7 /* Info.plist */,
@@ -142,6 +145,7 @@
 				D1D0B0E51C1F3A3E003C00C7 /* ViewController.swift in Sources */,
 				D1D0B0E31C1F3A3E003C00C7 /* AppDelegate.swift in Sources */,
 				D1D0B0EB1C1F3A3E003C00C7 /* tips.xcdatamodeld in Sources */,
+				D15C94B31C36277200BB89DB /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

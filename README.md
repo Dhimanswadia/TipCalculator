@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# TipCalculator
-=======
 # Pre-work - *TipCalculator*
 
 **TipCalculator** is a tip calculator application for iOS.
@@ -45,4 +42,3 @@ Final exams in college
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
->>>>>>> master

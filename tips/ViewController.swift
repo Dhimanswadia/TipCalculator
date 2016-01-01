@@ -14,9 +14,38 @@ class ViewController: UIViewController {
     @IBOutlet var tipControl: UISegmentedControl!
     @IBOutlet var totalLabel: UILabel!
     @IBOutlet var tipLabel: UILabel!
+    
+    var DefaultSegments  = [20, 22, 25]
+    var tipPercentagese: [Double] = [0.0, 0.0, 0.0]
+    var tip: Double = 0.0
+    var total: Double = 0.0
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let defaults = NSUserDefaults.standardUserDefaults()
+        
+        
+        if((defaults.objectForKey("tipPercentageSE")) != nil)
+        {
+            tipPercentagese = defaults.objectForKey("tipPercentageSE") as! [Double]
+        }
+        else        {
+            for var i = 0; i < DefaultSegments.count; ++i
+            {
+                tipPercentagese[i] = Double(DefaultSegments[i])
+            }
+        }
+        
+                let segments = tipPercentagese
+        
+        for var index = 0; index < tipControl.numberOfSegments; ++index
+        {
+            tipControl.setTitle("\(Int(segments[index]))%", forSegmentAtIndex: index)
+        }
+        
+        billField.becomeFirstResponder()
+        
+    
+        
     }
     
 
@@ -26,10 +55,11 @@ class ViewController: UIViewController {
     }
     @IBAction func OnEditingChanged
         (sender: AnyObject) {
-            var tipPercentages = [0.15,0.18,0.20]
-            let tpercentage = tipPercentages[tipControl.selectedSegmentIndex]
+             let tpercentage = tipControl.selectedSegmentIndex
+              let tipPercentages = Double(tipPercentagese[tpercentage])
+           
             let billAmount = billField.text!._bridgeToObjectiveC().doubleValue
-            let tip = billAmount * tpercentage
+            let tip = billAmount * (tipPercentages * 0.01)
             let total = billAmount + tip
             tipLabel.text = "$\(tip)"
             totalLabel.text = "$\(total)"
