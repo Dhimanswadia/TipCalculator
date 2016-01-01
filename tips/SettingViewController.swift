@@ -94,8 +94,7 @@ class SettingViewController: UIViewController {
     @IBAction func onTap(sender: AnyObject) {
         view.endEditing(true)
         
-        // Save settings when user tap the screen
-        //print(tipPercentageSE, terminator: "")
+        
         let defaults = NSUserDefaults.standardUserDefaults()
         defaults.setObject(tipPercentageSE, forKey: "tipPercentageSE")
         defaults.synchronize()
