@@ -10,14 +10,14 @@ Time spent: **11** hours spent in total
 
 The following **required** functionality is complete:
 
-* [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* [ ] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+*  User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* UI animations
+*  Remembering the bill amount across app restarts (if <10mins)
+*  Using locale-specific currency and currency thousands separators.
+* Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
-* [ ] Implemented Settings View with ability to Set Custom Tip Value
+*  Implemented Settings View with ability to Set Custom Tip Value
 
 
 
@@ -25,7 +25,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src ='http://i.imgur.com/iyyYsFuO.gifv' />
+<img src ='http://i.imgur.com/4z7a8JD.gifv' />
 
 
 If GIF Link is not loading Please try - http://i.imgur.com/yyYsFuO.gifv
