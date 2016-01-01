@@ -25,7 +25,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<iframe src="//giphy.com/embed/3o6UBlykUnioxQNq48" width="480" height="836" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/3o6UBlykUnioxQNq48">via GIPHY</a></p>
+<img src='http://gph.is/1JNll4h' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
