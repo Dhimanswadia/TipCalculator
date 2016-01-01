@@ -25,7 +25,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/iVel7tM.gif?1' />
+<img src='http://i.imgur.com/iyyYsFuO.gifv' />
 
 
 
